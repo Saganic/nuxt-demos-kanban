@@ -454,8 +454,11 @@ function onCompleteTaskClick(columnId: string, taskId: string) {
       <ConfettiExplosion v-if="visible" :stage-width="width" :stage-height="height" />
     </div>
     <footer class="fixed bottom-0 left-0 mx-auto right-0 w-full">
-      <div class="container py-4 lg:max-w-8xl mx-auto flex">
+      <div class="container py-4 lg:max-w-8xl mx-auto flex items-center justify-between">
         <ShortcutSlideover />
+        <a href="https://github.com/saganic" target="_blank">
+          <Icon name="akar-icons:github-fill" />
+        </a>
       </div>
     </footer>
   </div>
